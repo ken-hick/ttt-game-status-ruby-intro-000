@@ -29,7 +29,7 @@ end
 
 def full?(board)
   board.each do |i|
-    if position_taken[i] == true
+    if position_taken?[i] == true
       return true
     end
   end
