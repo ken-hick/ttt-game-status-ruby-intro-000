@@ -30,9 +30,9 @@ end
 def full?(board)
   if board.count do |i|
     i == "X" || i == "O" == 9
+  end
     return true
   else
     return false
-    end
   end
 end
