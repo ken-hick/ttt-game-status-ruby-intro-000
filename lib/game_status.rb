@@ -32,5 +32,5 @@ def full?(board)
     if position_taken[i] == true
       return true
     end
-  end    
+  end
 end
