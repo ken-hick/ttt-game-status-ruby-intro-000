@@ -28,9 +28,7 @@ end
 
 
 def full?(board)
-  if board.count do |i|
-    i == "X" || i == "O" == 9
-  end
+  if board.all? {|i| i == "X" || i == "O"}
     return true
   else
     return false
