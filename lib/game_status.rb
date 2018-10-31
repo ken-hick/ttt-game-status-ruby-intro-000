@@ -28,9 +28,11 @@ end
 
 
 def full?(board)
-  board.each do |i|
-    if position_taken?[i] == true
-      return true
+  if board.count do |i|
+    i == "X" || i == "O" == 9
+    return true
+  else
+    return false
     end
   end
 end
